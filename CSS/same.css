@@ -1,0 +1,240 @@
+html{
+    *{
+        margin: 0px;
+        font-family: Arial, Helvetica, sans-serif;
+        border: border-box;
+    }
+    
+    .navbar{
+        height: 80px;
+        width: 100%;
+        background-color: rgba(0, 0, 2, 0.93);
+        position: static;
+        display: flex;
+        align-items:center;
+        justify-content: space-evenly;
+        position: fixed;
+        top: 0px;
+        z-index: 100;
+    }
+    
+    .navbar2{
+        position: absolute;
+        top: 80px;
+        height: 60px;
+        width: 100%;
+        background-color: #1e201e;
+    }
+    
+    .navlogo{
+        height: 60px;
+        width: 170px;
+        display: flex;
+    }
+    
+    .logo{
+        background-image: url("/Image/image.png");
+        background-size: cover;
+        height: 60px;
+        width: 100%;
+    }
+    
+    .border{
+        border-width: 1px rgba(0, 0, 2, 0.93) transparent
+    }
+    
+    .border:hover{
+        border-width: 1.5px;
+        border-color: white;
+        border-style: solid;
+    }
+    
+    .addicon{
+        display: flex;
+        align-items: center;
+    }
+    
+    .navaddress{
+        height: 40px;
+        text-align: center;
+    }
+        
+    .addfirst{
+        color: #cccccc;
+        height: 0.8rem;
+        margin-left: 18px;
+    
+    }
+    
+    .addsecond{
+        height: 1rem;
+        color: white;
+        margin-left: 6px;
+        
+    }
+    
+    .navsearch{
+        display: flex;
+        height: 40px;
+        width: 600px;
+        border-radius: 4px;
+        justify-content: space-evenly;
+        background-color: pink;
+        margin-left: 60px;
+        border: 5px rgba(0, 0, 2, 0.93) solid;
+    
+    }
+    
+    .navsearch:hover{
+        border: 7px #323431 solid;
+    }
+    
+    .search-select{
+        height: 40px;
+        width: 60px;
+        background-color: #f3f3f3;
+        text-align: center;
+        border-top-left-radius: 3px;
+        border-bottom-left-radius: 3px;
+    }
+    
+    .search-input{
+        width: 100%;
+        font-size: 1rem;
+        border: none;
+    }
+    
+    .search-icon{
+        width: 45px;
+        height: 40px;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        background-color: #697565;
+        border-top-right-radius: 3px;
+        border-bottom-right-radius: 3px;
+        font-size: 1.5rem;
+    }
+    
+    .mar{
+        margin-left: 45px;
+    }
+    .logsin{
+        height: 32px;
+        width: 75px;
+    }
+    
+    .login{
+        height: 15px;
+        width: 90 px;
+        color: white;
+        text-align: center;
+    }
+    
+    .about{
+        height: 32px;
+        width: 100px;
+    }
+    
+    .about1{
+        height: 30px;
+        width: 90 px;
+        color: white;
+        text-align: center;
+    }
+    
+    .contact{
+        height: 32px;
+        width: 100px;
+    }
+    
+    .contact1{
+        height: 15px;
+        width: 90px;
+        color: white;
+        text-align: end;
+       
+    }
+    
+    .wishlist{
+        height: 32px;
+        width: 95px;
+        display: flex;
+        text-align: center;
+       
+    
+    }
+    
+    .pwish{
+        height: 15px;
+        width: 40px;
+        color: white;
+        margin-left: 6px;
+        font-weight: 400;
+    }
+    
+    .href{
+        text-decoration: none;
+        color: #ecdfcc;
+    }
+    
+    .navbar2 p{
+        font-size: 1rem;
+        color: #ecdfcc;
+        text-align: center;
+        padding-top: 18px;
+    }
+    
+    .hero-section{
+        background-image: url("/Image/hero.jpg");
+        background-size: cover;
+        height: 100vh;
+        width: 100%;
+    }
+    
+    .foot-panel1{
+        height: 30px;
+        width: 100%;
+        background-color: #1e201e;
+        justify-content: center;
+        text-align: center;
+        padding-top: 10px;
+    }
+    
+    .footer{
+        margin-top: 25px;
+    }
+    
+    .foot-panel1 a{
+        color: #ecdfcc;
+        text-decoration:none;
+        font-size: 1.1rem;
+        font-weight: 750;
+    }
+    
+    .foot-panel2{
+        background-color: rgba(0, 0, 2, 0.959);
+        color: #ecdfcc;
+        height: 200px;
+        display: flex;
+        justify-content: space-evenly;
+        padding-top: 40px;
+    }
+    
+    ul a{
+        display: block;
+        font-size: 1rem;
+        padding-top: 10px;
+    }
+    
+    ul p{
+        font-weight: 800;
+        font-size: 1.1rem;
+    }
+    
+    .tt{
+        text-decoration: none;
+        color: #ecdfcc;
+    }
+
+}
